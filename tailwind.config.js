@@ -10,6 +10,9 @@ module.exports = {
       fontSize: {
         "2xs": "0.65rem",
       },
+      borderWidth: {
+        1: "1px",
+      },
       colors: {
         transparent: "transparent",
         current: "currentColor",
