@@ -10,7 +10,7 @@ const mapImages: ImgData[] = importAllImages(
 
 export const MapsGrid = () => {
   return (
-    <div className="md:flex justify-center flex-wrap py-8 md:px-24 ">
+    <div className="md:flex justify-center flex-wrap py-8 w-full md:px-24 ">
       {mapProjects.map((project) => (
         <MapsGridItem
           projectTitle={project.projectTitle}
