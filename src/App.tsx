@@ -1,11 +1,22 @@
 import React from "react";
 import "./App.css";
 import { NavBar } from "./components/NavBar/NavBar";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="p-2 md:p-16 font-inter-light text-lg text-gray-800">
-      <NavBar />
+      <Router basename={process.env.PUBLIC_URL}>
+        <NavBar />
+        <Switch>
+          <Route exact path="/">
+            maps
+          </Route>
+          <Route exact path="/about">
+            about
+          </Route>
+        </Switch>
+      </Router>
     </div>
   );
 }
