@@ -119,8 +119,6 @@ var generateVoronoi = voronoi().extent([
   [voronoiWidth, voronoiWidth],
 ]);
 
-
-
 export const plot = (pickColor, points) => {
   var initialPolygons = generateVoronoi(points).polygons();
 

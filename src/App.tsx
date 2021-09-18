@@ -4,6 +4,7 @@ import { NavBar } from "./components/NavBar/NavBar";
 import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import { MapsGrid } from "./components/MapsGrid/MapsGrid";
 import { About } from "./components/About/About";
+import { MapRoutes } from "./components/MapRoutes/MapRoutes";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route exact path="/about">
             <About />
           </Route>
+          <MapRoutes />
         </Switch>
       </Router>
     </div>
