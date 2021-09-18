@@ -3,7 +3,7 @@ import Voronoi from "./Voronoi/Voronoi";
 
 export const NavBar = () => {
   return (
-    <div className="flex flex-col items-center">
+    <div className="w-full flex md:flex-col justify-between items-center">
       <Voronoi />
       <NameHeader />
     </div>

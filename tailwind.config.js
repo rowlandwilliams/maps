@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        "noto-serif": ["NotoSerif"],
+        "inter-light": ["Inter-Light"],
       },
       colors: {
         transparent: "transparent",

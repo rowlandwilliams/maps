@@ -1,4 +1,10 @@
 .polygons {
+  transition: all 150ms ease;
+  fill: none;
+  stroke: black;
+}
+
+.polygons:hover {
   fill: none;
   stroke: white;
 }
