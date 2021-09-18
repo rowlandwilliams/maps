@@ -7,6 +7,9 @@ module.exports = {
       fontFamily: {
         "inter-light": ["Inter-Light"],
       },
+      fontSize: {
+        "2xs": "0.65rem",
+      },
       colors: {
         transparent: "transparent",
         current: "currentColor",

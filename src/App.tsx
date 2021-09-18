@@ -3,6 +3,7 @@ import "./App.css";
 import { NavBar } from "./components/NavBar/NavBar";
 import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import { MapsGrid } from "./components/MapsGrid/MapsGrid";
+import { About } from "./components/About/About";
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
             <MapsGrid />
           </Route>
           <Route exact path="/about">
-            about
+            <About />
           </Route>
         </Switch>
       </Router>
