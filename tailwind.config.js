@@ -6,6 +6,7 @@ module.exports = {
     extend: {
       fontFamily: {
         "inter-light": ["Inter-Light"],
+        "inter-medium": ["Inter-Medium"],
       },
       fontSize: {
         "2xs": "0.65rem",

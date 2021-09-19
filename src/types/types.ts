@@ -16,3 +16,8 @@ export interface MapProjectObject {
   projectTitle: string;
   slug: string;
 }
+
+export interface ClientProject {
+  clientName: string;
+  clientUrl: string;
+}

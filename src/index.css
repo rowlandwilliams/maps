@@ -7,7 +7,12 @@
     font-family: "Inter-Light";
     src: url(./fonts/Inter-Light.ttf);
   }
+  @font-face {
+    font-family: "Inter-Medium";
+    src: url(./fonts/Inter-Medium.ttf);
+  }
 }
+
 html {
   overflow: scroll;
   overflow-x: hidden;
