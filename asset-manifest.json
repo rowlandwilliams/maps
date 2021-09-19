@@ -1,16 +1,22 @@
 {
   "files": {
-    "main.css": "/maps/static/css/main.5cc07fe5.chunk.css",
-    "main.js": "/maps/static/js/main.166881d9.chunk.js",
-    "main.js.map": "/maps/static/js/main.166881d9.chunk.js.map",
+    "main.css": "/maps/static/css/main.3253b226.chunk.css",
+    "main.js": "/maps/static/js/main.108bd63c.chunk.js",
+    "main.js.map": "/maps/static/js/main.108bd63c.chunk.js.map",
     "runtime-main.js": "/maps/static/js/runtime-main.8321aa4b.js",
     "runtime-main.js.map": "/maps/static/js/runtime-main.8321aa4b.js.map",
     "static/js/2.38aea307.chunk.js": "/maps/static/js/2.38aea307.chunk.js",
     "static/js/2.38aea307.chunk.js.map": "/maps/static/js/2.38aea307.chunk.js.map",
     "index.html": "/maps/index.html",
-    "static/css/main.5cc07fe5.chunk.css.map": "/maps/static/css/main.5cc07fe5.chunk.css.map",
+    "static/css/main.3253b226.chunk.css.map": "/maps/static/css/main.3253b226.chunk.css.map",
     "static/js/2.38aea307.chunk.js.LICENSE.txt": "/maps/static/js/2.38aea307.chunk.js.LICENSE.txt",
     "static/media/index.css": "/maps/static/media/Inter-Medium.18b8c68e.ttf",
+    "static/media/antarctica.png": "/maps/static/media/antarctica.7e66fabe.png",
+    "static/media/cyclemap.png": "/maps/static/media/cyclemap.0cb10652.png",
+    "static/media/cyclemap0.png": "/maps/static/media/cyclemap0.0cb10652.png",
+    "static/media/cyclemap1.png": "/maps/static/media/cyclemap1.7bd48c61.png",
+    "static/media/cyclemap2.png": "/maps/static/media/cyclemap2.bebfc5df.png",
+    "static/media/cyclemap3.png": "/maps/static/media/cyclemap3.6fa386ea.png",
     "static/media/satopo.png": "/maps/static/media/satopo.0a51ed49.png",
     "static/media/satopo0.png": "/maps/static/media/satopo0.d6117dbf.png",
     "static/media/satopo1.png": "/maps/static/media/satopo1.838395f7.png",
@@ -18,6 +24,8 @@
     "static/media/satopo3.png": "/maps/static/media/satopo3.686286b7.png",
     "static/media/satopo4.png": "/maps/static/media/satopo4.9c25403b.png",
     "static/media/trase.png": "/maps/static/media/trase.de19fa82.png",
+    "static/media/trase0.jpeg": "/maps/static/media/trase0.7bf3b3e0.jpeg",
+    "static/media/trase1.png": "/maps/static/media/trase1.de19fa82.png",
     "static/media/usrivers.png": "/maps/static/media/usrivers.ec54436c.png",
     "static/media/usrivers0.png": "/maps/static/media/usrivers0.6aa9fabd.png",
     "static/media/usrivers1.png": "/maps/static/media/usrivers1.247b80e5.png"
@@ -25,7 +33,7 @@
   "entrypoints": [
     "static/js/runtime-main.8321aa4b.js",
     "static/js/2.38aea307.chunk.js",
-    "static/css/main.5cc07fe5.chunk.css",
-    "static/js/main.166881d9.chunk.js"
+    "static/css/main.3253b226.chunk.css",
+    "static/js/main.108bd63c.chunk.js"
   ]
 }
