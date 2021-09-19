@@ -13,6 +13,7 @@ export const MapsGrid = () => {
     <div className="md:flex justify-center flex-wrap py-8 w-full xl:px-24 ">
       {mapProjects.map((project) => (
         <MapsGridItem
+          key={project.projectTitle}
           projectTitle={project.projectTitle}
           projectThumbnail={
             mapImages.filter((image) => {

@@ -1,10 +1,6 @@
-import { select } from "d3";
 import { Link } from "react-router-dom";
 import { ImgData } from "../../../types/types";
-import {
-  generateRandomPoints,
-  plot,
-} from "../../NavBar/Voronoi/utils/plot-utils";
+import { plot } from "../../NavBar/Voronoi/utils/plot-utils";
 import { pickColor, points } from "../../NavBar/Voronoi/Voronoi";
 
 interface Props {

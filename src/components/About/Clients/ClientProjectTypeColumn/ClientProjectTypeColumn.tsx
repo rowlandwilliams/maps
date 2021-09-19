@@ -14,7 +14,7 @@ export const ClientProjectTypeColumn = ({
       <div className="font-inter-medium">{columnTitle}</div>
       <div className="py-2">
         {columnProjects.map((project) => (
-          <div className="hover:underline">
+          <div className="hover:underline" key={project.clientName}>
             <a
               href={project.clientUrl}
               target="_blank"

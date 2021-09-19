@@ -25,7 +25,7 @@ const Voronoi = () => {
 
   return (
     <div className="w-10 h-10 md:w-16 md:h-16 rounded-lg overflow-hidden transition-all duration-150 border-2 border-gray-800 hover:border-white ">
-      <svg width="100%" height="100%" class="chart">
+      <svg width="100%" height="100%" className="chart">
         <defs>
           <clipPath id="rect-clip">
             <rect

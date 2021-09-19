@@ -5,15 +5,9 @@ interface Props {
   optionPath: string;
   optionLabel: string;
   isActive: boolean;
-  handleOptionClick: (optionLabel: string) => void;
 }
 
-export const MenuOption = ({
-  optionPath,
-  optionLabel,
-  isActive,
-  handleOptionClick,
-}: Props) => {
+export const MenuOption = ({ optionPath, optionLabel, isActive }: Props) => {
   return (
     <Link
       to={optionPath}
@@ -21,7 +15,6 @@ export const MenuOption = ({
         "text-opacity-40": !isActive,
         "pointer-events-none": isActive,
       })}
-      onClick={() => handleOptionClick(optionLabel)}
     >
       {optionLabel}
     </Link>
