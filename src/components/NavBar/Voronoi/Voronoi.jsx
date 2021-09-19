@@ -5,22 +5,19 @@ import "./styles.css";
 const voronoiWidth = 64;
 const padding = 1;
 
+var pointSeed = 5; // Math.floor(Math.random() * 8) + 5;
+
+export const pickColor = Math.random() < 0.5;
+
+export const points = generateRandomPoints(
+  pointSeed,
+  0,
+  voronoiWidth,
+  0,
+  voronoiWidth
+);
+
 const Voronoi = () => {
-  // randomly pick color scheme
-
-  // number of initial polygons
-  // var pointSeed = 10;
-  var pointSeed = 5; // Math.floor(Math.random() * 8) + 5;
-
-  var pickColor = Math.random() < 0.5;
-
-  const points = generateRandomPoints(
-    pointSeed,
-    0,
-    voronoiWidth,
-    0,
-    voronoiWidth
-  );
   // plot on load
   useEffect(() => {
     plot(pickColor, points);

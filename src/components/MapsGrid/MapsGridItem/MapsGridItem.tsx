@@ -1,6 +1,11 @@
 import { select } from "d3";
 import { Link } from "react-router-dom";
 import { ImgData } from "../../../types/types";
+import {
+  generateRandomPoints,
+  plot,
+} from "../../NavBar/Voronoi/utils/plot-utils";
+import { pickColor, points } from "../../NavBar/Voronoi/Voronoi";
 
 interface Props {
   projectTitle: string;
@@ -9,11 +14,10 @@ interface Props {
 
 export const MapsGridItem = ({ projectTitle, projectThumbnail }: Props) => {
   const rotateVoronoi = () => {
-    // const transform = transform(d3.select(this).attr("transform"));
+    // plot on load
 
-    const voronoi = select("#voronoi");
+    plot(pickColor, points);
 
-    console.log(voronoi.attr("transform"));
     // .attr("transform", "rotate(90)");
   };
   return (

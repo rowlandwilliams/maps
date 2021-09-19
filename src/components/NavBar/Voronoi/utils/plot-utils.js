@@ -123,7 +123,7 @@ export const plot = (pickColor, points) => {
   var initialPolygons = generateVoronoi(points).polygons();
 
   var polygonsGroup = select("#polygon-group");
-
+  polygonsGroup.selectAll("g").remove();
   // append defs here and pass down
   var defs = select(".chart").append("defs");
 
