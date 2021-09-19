@@ -12,7 +12,9 @@ export const mapProjects = [
     projectTitle: "US RIVERS",
     imgSlug: "usrivers",
     projectDescription: [
-      "Topograhic patterns of the Barwon South West area of Australia's Victoria State",
+      "Spatial distribution of primary and secondary rivers in the USA.",
+      "Created using data from the National Operational Hydrologic Remote Sensing Center.",
+      "2021 / RTNW Maps",
     ],
   },
   {
