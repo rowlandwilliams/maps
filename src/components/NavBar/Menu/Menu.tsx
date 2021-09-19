@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useLocation } from "react-router";
 import { MenuOption } from "./MenuOption/MenuOption";
 import { menuOptions } from "./menuOptions";
 
@@ -8,6 +9,8 @@ export const Menu = () => {
   const handleOptionClick = (optionLabel: string) => {
     setActiveLink(optionLabel);
   };
+
+  const location = useLocation();
   return (
     <div className="flex justify-between text-xs">
       {menuOptions.map((menuOptionObject) => (
@@ -15,7 +18,7 @@ export const Menu = () => {
           key={menuOptionObject.optionLabel}
           optionPath={menuOptionObject.optionPath}
           optionLabel={menuOptionObject.optionLabel}
-          isActive={menuOptionObject.optionLabel === activeLink}
+          isActive={menuOptionObject.optionPath === location.pathname}
           handleOptionClick={handleOptionClick}
         />
       ))}

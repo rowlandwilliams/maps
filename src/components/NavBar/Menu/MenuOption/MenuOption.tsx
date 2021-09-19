@@ -16,7 +16,7 @@ export const MenuOption = ({
 }: Props) => {
   return (
     <Link
-      to={"/" + optionPath}
+      to={optionPath}
       className={classNames("px-2 transition-all duration-150 text-black", {
         "text-opacity-40": !isActive,
         "pointer-events-none": isActive,
