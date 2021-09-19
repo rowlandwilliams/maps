@@ -9,15 +9,8 @@ interface Props {
 }
 
 export const MapsGridItem = ({ projectTitle, projectThumbnail }: Props) => {
-  const rotateVoronoi = () => {
-    // plot on load
-
-    plot(pickColor, points);
-
-    // .attr("transform", "rotate(90)");
-  };
   return (
-    <Link to={projectThumbnail.slug} onClick={rotateVoronoi}>
+    <Link to={projectThumbnail.slug} onClick={() => plot(pickColor, points)}>
       <div className="flex flex-col items-center md:mx-4">
         <div className="w-80 h-80 transition-opacity duration-150 hover:opacity-90 overflow-hidden">
           <img

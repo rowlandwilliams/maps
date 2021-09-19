@@ -3,8 +3,8 @@ import { importAllImages } from "../utils/utils";
 import { mapProjects } from "./mapProjects";
 import { MapsGridItem } from "./MapsGridItem/MapsGridItem";
 
-const mapImages: ImgData[] = importAllImages(
-  require.context("../../assets/img/"),
+const mapThumbnails: ImgData[] = importAllImages(
+  require.context("../../assets/thumbnails/"),
   ".png"
 );
 
@@ -16,7 +16,7 @@ export const MapsGrid = () => {
           key={project.projectTitle}
           projectTitle={project.projectTitle}
           projectThumbnail={
-            mapImages.filter((image) => {
+            mapThumbnails.filter((image) => {
               const re = new RegExp(project.imgSlug, "g");
               return image.slug.match(re);
             })[0]

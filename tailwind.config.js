@@ -14,6 +14,9 @@ module.exports = {
       borderWidth: {
         1: "1px",
       },
+      width: {
+        600: "600px",
+      },
       colors: {
         transparent: "transparent",
         current: "currentColor",
