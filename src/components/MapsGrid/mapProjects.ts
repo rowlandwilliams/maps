@@ -18,10 +18,29 @@ export const mapProjects = [
     ],
   },
   {
+    projectTitle: "ANTARCTIC RESEARCH STATIONS",
+    imgSlug: "antarctica",
+    projectDescription: [
+      "Permanent and Seasonal research stations on Antarctica.",
+      "Work In Progress / RTNW Maps",
+    ],
+  },
+  {
+    projectTitle: "LONDON CYCLE TRIPS",
+    imgSlug: "cyclemap",
+    projectDescription: [
+      ">500 bike trips taken between Santander Bike Stations in Central London from 9-9:30AM, Monday 5th January 2021.",
+      "Created using data Transport For London (TFL).",
+      "2021 / RTNW Maps",
+    ],
+  },
+  {
     projectTitle: "SUPPLY CHAIN MAPPING",
     imgSlug: "trase",
     projectDescription: [
-      "Topograhic patterns of the Barwon South West area of Australia's Victoria State",
+      "Brazilian export maps for commodities linked to tropical deforestation.",
+      "Created using data from trase.earth, a supply transparency initiative.",
+      "2018 / Produced for UK NGO Global Canopy.",
     ],
   },
 ];
