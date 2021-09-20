@@ -4,7 +4,7 @@ interface Props {
   previousProjectLink: string | null;
   nextProjectLink: string | null;
 }
-export const MapPageNavArrows = ({
+export const PageNavArrows = ({
   previousProjectLink,
   nextProjectLink,
 }: Props) => {

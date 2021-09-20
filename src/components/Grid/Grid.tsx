@@ -1,15 +1,14 @@
 import { motion } from "framer-motion";
-import { ImgData } from "../../types/types";
-import { importAllImages } from "../utils/utils";
-import { mapProjects } from "./mapProjects";
-import { MapsGridItem } from "./MapsGridItem/MapsGridItem";
+import { ImgData, Project } from "../../types/types";
+import { GridItem } from "./GridItem/GridItem";
 
-const mapThumbnails: ImgData[] = importAllImages(
-  require.context("../../assets/thumbnails/"),
-  ".png"
-);
+interface Props {
+  gridData: Project[];
+  gridThumbnails: ImgData[];
+  rootPath: string;
+}
 
-export const MapsGrid = () => {
+export const Grid = ({ gridData, gridThumbnails, rootPath }: Props) => {
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -19,16 +18,17 @@ export const MapsGrid = () => {
       className="block mx-auto"
     >
       <div className="sm:grid gap-4 justify-center grid-cols-medium-grid xl:grid-cols-large-grid py-8 xl:px-16 ">
-        {mapProjects.map((project) => (
-          <MapsGridItem
+        {gridData.map((project) => (
+          <GridItem
             key={project.projectTitle}
             projectTitle={project.projectTitle}
             projectThumbnail={
-              mapThumbnails.filter((image) => {
+              gridThumbnails.filter((image) => {
                 const re = new RegExp(project.imgSlug, "g");
                 return image.slug.match(re);
               })[0]
             }
+            rootPath={rootPath}
           />
         ))}
       </div>

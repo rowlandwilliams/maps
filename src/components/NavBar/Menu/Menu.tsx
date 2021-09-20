@@ -3,10 +3,9 @@ import { MenuOption } from "./MenuOption/MenuOption";
 import { menuOptions } from "./menuOptions";
 
 export const Menu = () => {
-  
   const location = useLocation();
   return (
-    <div className="flex justify-between text-xs">
+    <div className="flex w-full md:w-auto pt-4 md:pt-0 justify-between text-xs">
       {menuOptions.map((menuOptionObject) => (
         <MenuOption
           key={menuOptionObject.optionLabel}

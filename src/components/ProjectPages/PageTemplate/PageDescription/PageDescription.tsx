@@ -2,7 +2,7 @@ interface Props {
   projectDescriptionArray: string[];
 }
 
-export const MapPageDescription = ({ projectDescriptionArray }: Props) => {
+export const PageDescription = ({ projectDescriptionArray }: Props) => {
   return (
     <div className="md:pl-4 mb-4">
       {projectDescriptionArray.map((descriptionSentence) => (

@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
 import { ImgData } from "../../../types/types";
 import { FadeInOnScrollComponent } from "./FadeInOnScrollComponent/FadeInOnScrollComponent";
-import { MapPageDescription } from "./MapPageDescription/MapPageDescription";
-import { MapPageNavArrows } from "./MapPageNavArrows/MapPageNavArrows";
+import { PageDescription } from "./PageDescription/PageDescription";
+import { PageNavArrows } from "./PageNavArrows/PageNavArrows";
 
 interface Props {
   projectDescriptionArray: string[];
@@ -11,7 +11,7 @@ interface Props {
   nextProjectLink: string | null;
 }
 
-export const MapPageTemplate = ({
+export const PageTemplate = ({
   projectDescriptionArray,
   projectImages,
   previousProjectLink,
@@ -39,11 +39,9 @@ export const MapPageTemplate = ({
               ))}
             </div>
           </div>
-          <MapPageDescription
-            projectDescriptionArray={projectDescriptionArray}
-          />
+          <PageDescription projectDescriptionArray={projectDescriptionArray} />
         </div>
-        <MapPageNavArrows
+        <PageNavArrows
           previousProjectLink={previousProjectLink}
           nextProjectLink={nextProjectLink}
         />

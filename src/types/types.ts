@@ -21,3 +21,9 @@ export interface ClientProject {
   clientName: string;
   clientUrl: string;
 }
+
+export interface Project {
+  projectTitle: string;
+  imgSlug: string;
+  projectDescription: string[];
+}

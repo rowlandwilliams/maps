@@ -1,22 +1,22 @@
 import { Route } from "react-router";
-import { ImgData } from "../../types/types";
-import { mapProjects } from "../MapsGrid/mapProjects";
-import { importAllImages } from "../utils/utils";
-import { MapPageTemplate } from "./MapPageTemplate/MapPageTemplate";
+import { ImgData } from "../../../types/types";
+import { mapProjects } from "../../Grid/grid-data/mapProjects";
+import { importAllImages } from "../../utils/utils";
+import { PageTemplate } from "../PageTemplate/PageTemplate";
 
 const mapProjectImages: ImgData[] = importAllImages(
-  require.context("../../assets/mapProjectImages/"),
+  require.context("../../../assets/projectImages/maps"),
   ".png"
 );
 
 const nProjects = mapProjects.length;
 
-export const MapRoutes = () => {
+export const MapPages = () => {
   return (
     <>
       {mapProjects.map((project, i) => (
-        <Route path={"/" + project.imgSlug}>
-          <MapPageTemplate
+        <Route path={"/maps/" + project.imgSlug} key={project.imgSlug}>
+          <PageTemplate
             key={project.imgSlug}
             projectDescriptionArray={project.projectDescription}
             projectImages={mapProjectImages.filter((image) => {

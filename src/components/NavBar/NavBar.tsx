@@ -12,8 +12,11 @@ export const NavBar = () => {
       exit={{ opacity: 0 }}
       transition={{ duration: 0.5 }}
     >
-      <div className="w-full flex md:flex-col justify-between items-center">
-        <Link to="/" className="flex md:flex-col items-center">
+      <div className="w-full flex flex-col justify-between items-center">
+        <Link
+          to="/"
+          className="flex justify-between w-full md:flex-col items-center"
+        >
           <Voronoi />
           <NameHeader />
         </Link>
