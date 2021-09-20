@@ -16,8 +16,9 @@ export const MapsGrid = () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 0.5 }}
+      className="block mx-auto"
     >
-      <div className="md:flex justify-center flex-wrap py-8 w-full xl:px-24 ">
+      <div className="sm:grid gap-4 justify-center grid-cols-medium-grid xl:grid-cols-large-grid py-8 xl:px-16 ">
         {mapProjects.map((project) => (
           <MapsGridItem
             key={project.projectTitle}

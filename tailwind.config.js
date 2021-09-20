@@ -22,6 +22,10 @@ module.exports = {
         current: "currentColor",
         ...colors,
       },
+      gridTemplateColumns: {
+        "large-grid": "repeat(3, minmax(0, 340px))",
+        "medium-grid": "repeat(2, minmax(0, 340px))",
+      },
     },
   },
   variants: {

@@ -43,4 +43,9 @@ export const mapProjects = [
       "2018 / Produced for UK NGO Global Canopy.",
     ],
   },
+  {
+    projectTitle: "",
+    imgSlug: "",
+    projectDescription: [""],
+  },
 ];
