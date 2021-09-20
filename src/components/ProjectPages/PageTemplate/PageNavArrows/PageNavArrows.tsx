@@ -1,16 +1,22 @@
 import { Link } from "react-router-dom";
+import { capitalizeFirstLetter } from "./utils";
 
 interface Props {
   previousProjectLink: string | null;
   nextProjectLink: string | null;
+  gridName: string;
 }
 export const PageNavArrows = ({
   previousProjectLink,
   nextProjectLink,
+  gridName,
 }: Props) => {
   return (
     <div className="flex justify-between">
-      <Link to="/">&larr; Back to Maps</Link>
+      <Link to={"/" + gridName}>
+        &larr; Back to{" "}
+        {gridName === "" ? "Maps" : capitalizeFirstLetter(gridName)}
+      </Link>
       <div className="flex">
         {previousProjectLink ? (
           <Link to={previousProjectLink} className="mx-2">

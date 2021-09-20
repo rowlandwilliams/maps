@@ -9,6 +9,7 @@ interface Props {
   projectImages: ImgData[];
   previousProjectLink: string | null;
   nextProjectLink: string | null;
+  gridName: string;
 }
 
 export const PageTemplate = ({
@@ -16,6 +17,7 @@ export const PageTemplate = ({
   projectImages,
   previousProjectLink,
   nextProjectLink,
+  gridName,
 }: Props) => {
   return (
     <motion.div
@@ -27,7 +29,7 @@ export const PageTemplate = ({
       <div className="text-xs">
         <div className="flex flex-col-reverse md:flex-row py-8">
           <div className="md:w-1/2 flex justify-end">
-            <div className="w-full md:w-600">
+            <div className="w-full sm:w-3/4 md:w-600">
               {projectImages.map((projectImage) => (
                 <FadeInOnScrollComponent threshold={0.05}>
                   <img
@@ -44,6 +46,7 @@ export const PageTemplate = ({
         <PageNavArrows
           previousProjectLink={previousProjectLink}
           nextProjectLink={nextProjectLink}
+          gridName={gridName}
         />
       </div>
     </motion.div>

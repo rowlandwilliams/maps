@@ -27,6 +27,7 @@ export const MapPages = () => {
             nextProjectLink={
               i !== nProjects - 1 ? mapProjects[i + 1].imgSlug : null
             }
+            gridName=""
           />
         </Route>
       ))}

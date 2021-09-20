@@ -27,6 +27,7 @@ export const GraphPages = () => {
             nextProjectLink={
               i !== nProjects - 1 ? graphProjects[i + 1].imgSlug : null
             }
+            gridName="graphs"
           />
         </Route>
       ))}
