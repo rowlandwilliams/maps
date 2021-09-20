@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { ImgData } from "../../../types/types";
+import { FadeInOnScrollComponent } from "./FadeInOnScrollComponent/FadeInOnScrollComponent";
 import { MapPageDescription } from "./MapPageDescription/MapPageDescription";
 import { MapPageNavArrows } from "./MapPageNavArrows/MapPageNavArrows";
 
@@ -28,11 +29,13 @@ export const MapPageTemplate = ({
           <div className="md:w-1/2 flex justify-end">
             <div className="w-full md:w-600">
               {projectImages.map((projectImage) => (
-                <img
-                  src={projectImage.module.default}
-                  alt={projectImage.slug}
-                  className="mb-2"
-                />
+                <FadeInOnScrollComponent threshold={0.05}>
+                  <img
+                    src={projectImage.module.default}
+                    alt={projectImage.slug}
+                    className="mb-2"
+                  />
+                </FadeInOnScrollComponent>
               ))}
             </div>
           </div>
