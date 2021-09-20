@@ -10,7 +10,6 @@ import { importAllImages } from "./components/utils/utils";
 import { ImgData } from "./types/types";
 import { graphProjects } from "./components/Grid/grid-data/graphProjects";
 import { ProjectPages } from "./components/ProjectPages/ProjectPages";
-import { Footer } from "./components/About/Footer/Footer";
 
 const mapThumbnails: ImgData[] = importAllImages(
   require.context("./assets/thumbnails/maps/"),
