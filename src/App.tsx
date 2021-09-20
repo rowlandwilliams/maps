@@ -10,6 +10,7 @@ import { importAllImages } from "./components/utils/utils";
 import { ImgData } from "./types/types";
 import { graphProjects } from "./components/Grid/grid-data/graphProjects";
 import { ProjectPages } from "./components/ProjectPages/ProjectPages";
+import { Footer } from "./components/About/Footer/Footer";
 
 const mapThumbnails: ImgData[] = importAllImages(
   require.context("./assets/thumbnails/maps/"),
@@ -23,7 +24,7 @@ const graphThumbnails: ImgData[] = importAllImages(
 
 function App() {
   return (
-    <div className="p-2 md:p-16 font-inter-light text-lg text-gray-800">
+    <div className="p-2 md:p-16 font-inter-light text-lg text-gray-800 flex flex-col justify-center">
       <Router basename={process.env.PUBLIC_URL}>
         <NavBar />
         <AnimatePresence exitBeforeEnter>
