@@ -6,7 +6,7 @@ export const graphProjects: Project[] = [
     imgSlug: "supernova",
     projectDescription: [
       "Custom visualisation components for Supernova AI, a novel sustainable investment platform.",
-      "2021 / Produced for Supernova AI",
+      "2021 / Produced for Supernova AI.",
     ],
   },
   {
@@ -16,6 +16,23 @@ export const graphProjects: Project[] = [
       "Stock chart design and development.",
       "Created using data from Yahoo! Finance.",
       "2021 / RTNW",
+    ],
+  },
+  {
+    projectTitle: "ECO TREE",
+    imgSlug: "ecoregions",
+    projectDescription: [
+      "Hierachical tree diagram of Californian Eco-region structure.",
+      "Created using data US Environmental Protection Agency, epa.gov",
+      "2021 / RTNW",
+    ],
+  },
+  {
+    projectTitle: "TRASE VISUALS",
+    imgSlug: "trase",
+    projectDescription: [
+      "Graphs and visuals using data from trase.earth, a supply chain transparency initiative.",
+      "2018 / Produced for UK NGO Global Canopy.",
     ],
   },
   {
@@ -38,13 +55,5 @@ export const graphProjects: Project[] = [
     projectTitle: "RADIAL NETWORKS",
     imgSlug: "radialnetwork",
     projectDescription: ["Various radial networks.", "2020 / RTNW"],
-  },
-  {
-    projectTitle: "TRASE VISUALS",
-    imgSlug: "trase",
-    projectDescription: [
-      "Graphs and visuals using data from trase.earth, a supply chain transparency initiative.",
-      "2018 / Produced for UK NGO Global Canopy.",
-    ],
   },
 ];
