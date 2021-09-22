@@ -10,6 +10,7 @@ import { importAllImages } from "./components/utils/utils";
 import { ImgData } from "./types/types";
 import { graphProjects } from "./components/Grid/grid-data/graphProjects";
 import { ProjectPages } from "./components/ProjectPages/ProjectPages";
+import { designProjects } from "./components/Grid/grid-data/designProjects";
 
 const mapThumbnails: ImgData[] = importAllImages(
   require.context("./assets/thumbnails/maps/"),
@@ -18,6 +19,11 @@ const mapThumbnails: ImgData[] = importAllImages(
 
 const graphThumbnails: ImgData[] = importAllImages(
   require.context("./assets/thumbnails/graphs/"),
+  ".png"
+);
+
+const designThumbnails: ImgData[] = importAllImages(
+  require.context("./assets/thumbnails/design/"),
   ".png"
 );
 
@@ -40,6 +46,13 @@ function App() {
                 gridData={graphProjects}
                 gridThumbnails={graphThumbnails}
                 rootPath="/graphs/"
+              />
+            </Route>
+            <Route exact path="/design">
+              <Grid
+                gridData={designProjects}
+                gridThumbnails={designThumbnails}
+                rootPath="/design/"
               />
             </Route>
             <Route exact path="/about">
