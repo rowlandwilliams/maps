@@ -1,7 +1,6 @@
 import { Route } from "react-router";
 import { ImgData } from "../../../types/types";
 import { designProjects } from "../../Grid/grid-data/designProjects";
-import { graphProjects } from "../../Grid/grid-data/graphProjects";
 import { importAllImages } from "../../utils/utils";
 import { PageTemplate } from "../PageTemplate/PageTemplate";
 
@@ -24,9 +23,9 @@ export const DesignPages = () => {
               const re = new RegExp(project.imgSlug, "g");
               return image.slug.match(re);
             })}
-            previousProjectLink={i !== 0 ? graphProjects[i - 1].imgSlug : null}
+            previousProjectLink={i !== 0 ? designProjects[i - 1].imgSlug : null}
             nextProjectLink={
-              i !== nProjects - 1 ? graphProjects[i + 1].imgSlug : null
+              i !== nProjects - 1 ? designProjects[i + 1].imgSlug : null
             }
             gridName="design"
           />
