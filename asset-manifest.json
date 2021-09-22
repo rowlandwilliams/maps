@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.eaaa197a.chunk.css",
-    "main.js": "/static/js/main.730fefc9.chunk.js",
-    "main.js.map": "/static/js/main.730fefc9.chunk.js.map",
+    "main.js": "/static/js/main.35c06d73.chunk.js",
+    "main.js.map": "/static/js/main.35c06d73.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.41d005cd.js",
     "runtime-main.js.map": "/static/js/runtime-main.41d005cd.js.map",
     "static/js/2.83b7bdd3.chunk.js": "/static/js/2.83b7bdd3.chunk.js",
@@ -33,7 +33,7 @@
     "static/media/stockchart0.png": "/static/media/stockchart0.364f0127.png",
     "static/media/stockchart1.png": "/static/media/stockchart1.10061434.png",
     "static/media/stockchart2.png": "/static/media/stockchart2.f60b0952.png",
-    "static/media/supernova.jpeg": "/static/media/supernova.c3483f59.jpeg",
+    "static/media/supernova.png": "/static/media/supernova.c3483f59.png",
     "static/media/supernova0.png": "/static/media/supernova0.50338171.png",
     "static/media/supernova1.png": "/static/media/supernova1.bab2efaa.png",
     "static/media/supernova2.png": "/static/media/supernova2.783929a8.png",
@@ -57,6 +57,6 @@
     "static/js/runtime-main.41d005cd.js",
     "static/js/2.83b7bdd3.chunk.js",
     "static/css/main.eaaa197a.chunk.css",
-    "static/js/main.730fefc9.chunk.js"
+    "static/js/main.35c06d73.chunk.js"
   ]
 }
