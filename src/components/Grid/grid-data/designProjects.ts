@@ -10,7 +10,7 @@ export const designProjects: Project[] = [
     ],
   },
   {
-    projectTitle: "FROM A JAPANESE SIZED ROOM",
+    projectTitle: "FROM A JAPAN SIZED ROOM",
     imgSlug: "japan",
     projectDescription: [
       "Drawings created whilst working in Hokkaido, Japan.",
