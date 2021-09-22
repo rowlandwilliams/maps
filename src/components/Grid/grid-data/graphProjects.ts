@@ -2,6 +2,14 @@ import { Project } from "../../../types/types";
 
 export const graphProjects: Project[] = [
   {
+    projectTitle: "SUPERNOVA AI",
+    imgSlug: "supernova",
+    projectDescription: [
+      "Custom visualisation components for Supernova AI, a novel sustainable investment platform.",
+      "2021 / Produced for Supernova AI",
+    ],
+  },
+  {
     projectTitle: "STOCK CHART",
     imgSlug: "stockchart",
     projectDescription: [
