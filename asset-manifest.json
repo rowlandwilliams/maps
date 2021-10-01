@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.eaaa197a.chunk.css",
-    "main.js": "/static/js/main.86aa609c.chunk.js",
-    "main.js.map": "/static/js/main.86aa609c.chunk.js.map",
+    "main.js": "/static/js/main.cc2730c3.chunk.js",
+    "main.js.map": "/static/js/main.cc2730c3.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.41d005cd.js",
     "runtime-main.js.map": "/static/js/runtime-main.41d005cd.js.map",
-    "static/js/2.cb1a3a55.chunk.js": "/static/js/2.cb1a3a55.chunk.js",
-    "static/js/2.cb1a3a55.chunk.js.map": "/static/js/2.cb1a3a55.chunk.js.map",
+    "static/js/2.5f01672b.chunk.js": "/static/js/2.5f01672b.chunk.js",
+    "static/js/2.5f01672b.chunk.js.map": "/static/js/2.5f01672b.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.eaaa197a.chunk.css.map": "/static/css/main.eaaa197a.chunk.css.map",
-    "static/js/2.cb1a3a55.chunk.js.LICENSE.txt": "/static/js/2.cb1a3a55.chunk.js.LICENSE.txt",
+    "static/js/2.5f01672b.chunk.js.LICENSE.txt": "/static/js/2.5f01672b.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/Inter-Medium.18b8c68e.ttf",
     "static/media/antarctica.png": "/static/media/antarctica.7e66fabe.png",
     "static/media/boards.png": "/static/media/boards.5563cf78.png",
@@ -61,6 +61,10 @@
     "static/media/trase2.png": "/static/media/trase2.1db18ae7.png",
     "static/media/trase3.png": "/static/media/trase3.ef301837.png",
     "static/media/unknownclimate.png": "/static/media/unknownclimate.2081488a.png",
+    "static/media/us-population-map.png": "/static/media/us-population-map.ddcf1cf8.png",
+    "static/media/us-population-map0.png": "/static/media/us-population-map0.8c0abe11.png",
+    "static/media/us-population-map1.png": "/static/media/us-population-map1.ddcf1cf8.png",
+    "static/media/us-population-map2.png": "/static/media/us-population-map2.be886f41.png",
     "static/media/usrivers.png": "/static/media/usrivers.077a4027.png",
     "static/media/usrivers0.png": "/static/media/usrivers0.6aa9fabd.png",
     "static/media/usrivers1.png": "/static/media/usrivers1.247b80e5.png",
@@ -72,8 +76,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.41d005cd.js",
-    "static/js/2.cb1a3a55.chunk.js",
+    "static/js/2.5f01672b.chunk.js",
     "static/css/main.eaaa197a.chunk.css",
-    "static/js/main.86aa609c.chunk.js"
+    "static/js/main.cc2730c3.chunk.js"
   ]
 }
