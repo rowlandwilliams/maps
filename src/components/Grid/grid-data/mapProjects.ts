@@ -1,6 +1,14 @@
 import { Project } from "../../../types/types";
 export const mapProjects: Project[] = [
   {
+    projectTitle: "US POPULATION",
+    imgSlug: "us-population-map",
+    projectDescription: [
+      "The 400 Largest US Cities by population in 2013.",
+      "2021 / RTNW",
+    ],
+  },
+  {
     projectTitle: "SOUTH AUSTRALIAN TOPOGRAPHY",
     imgSlug: "satopo",
     projectDescription: [
