@@ -1,6 +1,15 @@
 import { Project } from "../../../types/types";
 export const mapProjects: Project[] = [
   {
+    projectTitle: "WAVES VORONOI",
+    imgSlug: "waves-voronoi",
+    projectDescription: [
+      "A voronoi tesselation of all the surf spots in Europe.",
+      "Created using data from Magicseaweed.",
+      "2021 / RTNW",
+    ],
+  },
+  {
     projectTitle: "US POPULATION",
     imgSlug: "us-population-map",
     projectDescription: [
