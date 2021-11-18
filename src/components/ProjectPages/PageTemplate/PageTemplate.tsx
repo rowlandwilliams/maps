@@ -31,7 +31,10 @@ export const PageTemplate = ({
           <div className="md:w-1/2 flex justify-end">
             <div className="w-full sm:w-3/4 md:w-600">
               {projectImages.map((projectImage) => (
-                <FadeInOnScrollComponent threshold={0.05}>
+                <FadeInOnScrollComponent
+                  threshold={0.05}
+                  key={projectImage.slug}
+                >
                   <img
                     src={projectImage.module.default}
                     alt={projectImage.slug}
